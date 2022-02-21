@@ -7,4 +7,58 @@
 html {
     background-color: darkslategrey;
     color: white;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    color: azure;
+    padding-right: 10px;
+}
+
+header {
+    margin: 40px auto;
+    font-size: 40px;
+    color:cadetblue
+}
+
+
+footer {
+    margin: 20px auto;
+}
+
+footer p {
+    margin: 10px auto;
+}
+
+footer section a {
+    color: cadetblue !important;
+}
+
+.container {
+    height: 500px;
+    width: 500px;
+    outline: solid 1px blueviolet;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+.container p {
+    text-align: center;
+}
+
+.large {
+    height: 1000px;
+    width: 1000px;
+}
+
+.left {
+    margin-left: 400px;
+}
+
+.right {
+    margin-right: 400px;
 }
