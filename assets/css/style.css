@@ -1,4 +1,8 @@
 /* Use Flexbox and media queries*/
+/* Universal */
+:root {
+    --lightblue: rgb(155, 225, 228);
+}
 * {
     font-family: "Helvetica", Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -8,40 +12,46 @@ html {
     background-color: darkslategrey;
     color: white;
     text-align: center;
+    margin: 0 auto;
 }
-
+/* Header and nav */
 nav ul {
     display: flex;
+    justify-content: end;
+    margin: 0 50px 30px auto;
 }
 
 nav a {
-    color: azure;
+    color: white;
     padding-right: 10px;
 }
 
 header {
     margin: 40px auto;
     font-size: 40px;
-    color:cadetblue
+    color: var(--lightblue);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Body */
+
+img {
+    margin: 40px auto;
 }
 
-
-footer {
-    margin: 20px auto;
-}
+/* Footer */
 
 footer p {
-    margin: 10px auto;
+    margin-bottom: 30px auto;
 }
 
 footer section a {
-    color: cadetblue !important;
+    color: rgb(155, 225, 228) !important;
 }
 
 .container {
     height: 500px;
-    width: 500px;
-    outline: solid 1px blueviolet;
+    width: 700px;
+    outline: solid 3px var(--lightblue);
     margin: 50px auto;
     padding: 40px;
 }
@@ -55,10 +65,22 @@ footer section a {
     width: 1000px;
 }
 
-.left {
-    margin-left: 400px;
+#Work a {
+    color: var(--lightblue) !important;
 }
 
-.right {
-    margin-right: 400px;
+nav ul li a:hover {
+    color: palevioletred;
+}
+
+@media screen and (max-width:992px) {
+
+}
+
+@media screen and (max-width:768px) {
+
+}
+
+@media screen and (max-width:576px) {
+    
 }
