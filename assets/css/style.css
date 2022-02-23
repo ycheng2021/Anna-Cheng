@@ -53,6 +53,12 @@ img {
     margin: 40px auto;
 }
 
+h3 {
+    font-size: 40px;
+    color: white;
+    margin-top: 180px;
+}
+
 /* Footer */
 
 footer,
@@ -62,13 +68,19 @@ footer a {
 }
 
 footer {
-    padding: 50px;
-    margin-top: 50px;
     border-top: 10px solid var(--lightblue);
 }
 
 footer p {
-    padding: 15px;
+    padding: 10px;
+}
+
+h4 {
+    padding-bottom: 20px;
+}
+
+textarea {
+    margin-top: 20px;
 }
 
 /* Classes and id */
@@ -105,20 +117,25 @@ footer p {
     margin: 20px;
 }
 
-h3 {
-    font-size: 40px;
-    color: white;
-    margin-top: 180px;
+.form-submit input {
+    border-radius: 8px;
+    padding: 5px;
+    margin: 15px auto;
 }
 
 #skill-set {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 60px;
 }
 
 nav ul li a:hover {
     color: palevioletred;
+}
+
+.form-submit input:hover {
+    cursor: pointer;
 }
 
 @media screen and (max-width:992px) {

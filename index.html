@@ -64,13 +64,31 @@
 
     <section id="about-me">
         <img src="">
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h4>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
     </section>
     
     <section id="contact-me">
-        <!-- Display Phone number, Email Address, and Github (Clicking on Github will open new webpage)-->
-        <p>Phone Number: (626)560-8393</p>
-        <p>Email Address: <a href="mailto: annacheng09@hotmail.com">annacheng09@hotmail.com</a></p>
+        <!-- Display Name, Email, and Message form -->
+        <form>
+            <div class="form-name">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-email">
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email">
+            </div>
+            <textarea id="message" name="message"
+            rows="5" cols="33">
+            Enter message here...
+            </textarea>
+            <div class="form-submit">
+                <input type="submit" value="Submit">
+            </div>
+          </form>
+
+        <!-- LinkedIn and Github (Clicking on Github will open new webpage)-->
+        <p><a href="https://linkedin.com" target="_blank">LinkedIn</a></p>
         <p><a href="https://github.com/ycheng2021/Anna-Cheng" target="_blank">Github</a></p>
     </section>
 </footer>
