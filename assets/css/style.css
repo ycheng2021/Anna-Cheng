@@ -88,7 +88,7 @@ footer p {
 }
 
 h4 {
-    padding-bottom: 20px;
+    padding: 0 20px 20px;
 }
 
 textarea {
@@ -129,6 +129,16 @@ textarea {
     margin: 20px;
 }
 
+.form-email {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.form-email label {
+    padding-right: 5px;
+}
+
 .form-submit input {
     border-radius: 8px;
     padding: 5px;
@@ -144,6 +154,12 @@ textarea {
 
 nav ul li a:hover {
     color: palevioletred;
+}
+
+h3:hover {
+    font-size: 50px;
+    color: rgb(0, 235, 0);
+    transition: color 500ms, font-size 500ms;
 }
 
 .form-submit input:hover {
