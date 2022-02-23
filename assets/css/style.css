@@ -9,12 +9,25 @@
 }
 
 html {
-    background-color: darkslategrey;
-    color: white;
+    background-color: grey;
+    color: rgb(58, 58, 58);
     text-align: center;
     margin: 0 auto;
 }
 /* Header and nav */
+
+header {
+    margin: 30px auto 30px 30px;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    text-align: left;
+    color: var(--lightblue);
+}
+
+header i {
+    padding-right: 15px;
+}
+
 nav ul {
     display: flex;
     justify-content: end;
@@ -22,17 +35,19 @@ nav ul {
 }
 
 nav a {
-    color: white;
+    color: var(--lightblue);
     padding-right: 10px;
 }
 
-header {
-    margin: 40px auto;
-    font-size: 40px;
-    color: var(--lightblue);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 /* Body */
+
+i {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 60px;
+}
 
 img {
     margin: 40px auto;
@@ -40,20 +55,30 @@ img {
 
 /* Footer */
 
-footer p {
-    margin-bottom: 30px auto;
+footer,
+footer a {
+    color: white;
+    background-color: cadetblue;
 }
 
-footer section a {
-    color: rgb(155, 225, 228) !important;
+footer {
+    padding: 50px;
+    margin-top: 50px;
+    border-top: 10px solid var(--lightblue);
 }
+
+footer p {
+    padding: 15px;
+}
+
+/* Classes and id */
 
 .container {
     height: 500px;
-    width: 700px;
-    outline: solid 3px var(--lightblue);
+    width: 500px;
     margin: 50px auto;
     padding: 40px;
+    background-color: rgb(214, 214, 214);
 }
 
 .container p {
@@ -61,12 +86,35 @@ footer section a {
 }
 
 .large {
-    height: 1000px;
-    width: 1000px;
+    height: 800px;
+    width: 800px;
+}
+.container1 {
+    background-image: url(../images/htmlcss.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
 }
 
-#Work a {
-    color: var(--lightblue) !important;
+.container2 {
+    background-image: url(../images/javascript.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+}
+
+h3 {
+    font-size: 40px;
+    color: white;
+    margin-top: 180px;
+}
+
+#skill-set {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav ul li a:hover {
@@ -82,5 +130,5 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width:576px) {
-    
+
 }
