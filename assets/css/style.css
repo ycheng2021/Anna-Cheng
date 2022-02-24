@@ -30,7 +30,7 @@ header i {
 nav {
     position: absolute;
     right: 20px;
-    top: 40px;
+    top: 35px;
 }
 
 nav li {
@@ -39,8 +39,7 @@ nav li {
 
 nav a {
     color: var(--lightblue);
-    padding: 14px 16px;
-    font-size:20px;
+    font-size:25px;
     text-decoration: none;
 }
 
@@ -91,9 +90,9 @@ h4 {
 }
 
 h4 i {
-    font-size: 70px;
+    font-size: 50px;
     padding: 10px;
-    margin-right: 20px;
+    margin: 20px;
     background-color: grey;
 }
 
@@ -202,9 +201,15 @@ h3:hover {
     padding-top: 10px;
 }
 
+@media screen and (max-width:850px) {
+    nav {
+        margin-top: 60px;
+    }
+}
+
 @media screen and (max-width:768px) {
     
-    i {
+    header i {
         font-size: 25px ;
     }
 
@@ -213,8 +218,8 @@ h3:hover {
     }
 
     nav {
-        right: 0px;
-        top: 40px;
+        right: 10px;
+        top: 35px;
     }
 
     nav a {
@@ -233,10 +238,16 @@ h3:hover {
     }
 }
 
+@media screen and (max-width:750px) {
+    nav {
+        margin-top: 60px;
+    }
+}
+
 @media screen and (max-width:576px) {
     
     nav {
-        top: 100px;
+        top: 25px;
         left: 0px;
     }
 
@@ -255,7 +266,7 @@ h3:hover {
     }
 
     .large {
-        max-width: 500px;
+        max-width: 450px;
     }
     
     img {
