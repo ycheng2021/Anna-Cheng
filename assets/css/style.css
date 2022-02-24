@@ -25,6 +25,11 @@ header {
 
 header i {
     padding-right: 15px;
+    font-size: 30px;
+}
+
+header a {
+    font-size: 25px;
 }
 
 nav {
@@ -45,10 +50,6 @@ nav a {
 }
 
 /* Body */
-
-header i {
-    font-size: 30px;
-}
 
 h1 {
     font-size: 60px;
@@ -84,7 +85,6 @@ footer p {
 }
 
 h4 {
-    margin: 30px auto 20px;
     display: flex;
     justify-content: center;
     align-items: center;
