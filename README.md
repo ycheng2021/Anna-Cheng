@@ -1,5 +1,7 @@
 # Anna-Cheng
 
 ## My Portfolio
-project images will be placeholders and project links will go to some social media websites since there are no projects to showcase at this moment.
+Project images will be placeholders and project links will go to other websites for now.
 
+## About Me
+About me will be short since there is no coding experience to elaborate on. Image will be a placeholder user icon for now.

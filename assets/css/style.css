@@ -4,7 +4,7 @@
     --lightblue: rgb(155, 225, 228);
 }
 * {
-    font-family: "Helvetica", Arial, Helvetica, sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 16px;
 }
 
@@ -19,7 +19,6 @@ html {
 header {
     margin: 30px auto 30px 30px;
     font-size: 30px;
-    font-family: 'Comfortaa', cursive;
     text-align: left;
     color: var(--lightblue);
 }
@@ -42,11 +41,12 @@ nav a {
     color: var(--lightblue);
     padding: 14px 16px;
     font-size:20px;
+    text-decoration: none;
 }
 
 /* Body */
 
-i {
+header i {
     font-size: 30px;
 }
 
@@ -59,10 +59,6 @@ h1 {
 
 h2 {
     font-size: 24px;
-}
-
-img {
-    margin: 40px auto;
 }
 
 h3 {
@@ -88,7 +84,17 @@ footer p {
 }
 
 h4 {
-    padding: 0 20px 20px;
+    margin: 30px auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 i {
+    font-size: 70px;
+    padding: 10px;
+    margin-right: 20px;
+    background-color: grey;
 }
 
 textarea {
@@ -96,6 +102,19 @@ textarea {
 }
 
 /* Classes and id */
+
+.twitter {
+    width: 100%;
+    max-width: 650px;
+    margin: 30px auto;
+}
+
+.facebook,
+.github {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+}
 
 .container {
     height: 500px;
@@ -110,9 +129,10 @@ textarea {
 }
 
 .large {
-    height: 800px;
+    height: 700px;
     width: 800px;
 }
+
 .container1 {
     background-image: url(../images/htmlcss.jpg);
     background-size: cover;
@@ -145,6 +165,17 @@ textarea {
     margin: 15px auto;
 }
 
+.links {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.links i,
+.links p {
+    margin-right: 5px;
+}
+
 #skill-set {
     display: flex;
     justify-content: center;
@@ -166,8 +197,9 @@ h3:hover {
     cursor: pointer;
 }
 
-@media screen and (max-width:992px) {
-
+::placeholder {
+    text-align: center;
+    padding-top: 10px;
 }
 
 @media screen and (max-width:768px) {
@@ -182,7 +214,12 @@ h3:hover {
 
     nav {
         right: 0px;
-        top: 35px;
+        top: 40px;
+    }
+
+    nav a {
+        padding: 10px;
+        font-size: 20px;
     }
 
     .container {
