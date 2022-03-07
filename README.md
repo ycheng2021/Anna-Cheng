@@ -5,7 +5,7 @@ My name is Anna Cheng and I am a coding student currently taking online classes.
 Project images for now will be placeholders and project links will go to other websites. 
 
 ## About Me
-About me will be short since there is not much coding experience to elaborate on. Photo/avatar image will be a placeholder user icon for now.
+About me will be short since there is not much coding experience to elaborate on. 
 
 ### Links
 
