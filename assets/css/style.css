@@ -107,14 +107,14 @@ textarea {
 
 /* Classes and id */
 
-.twitter {
+.anime {
     width: 100%;
     max-width: 650px;
     margin: 30px auto;
 }
 
-.facebook,
-.github {
+.weather,
+.quiz {
     width: 100%;
     max-width: 400px;
     margin: 20px auto;
@@ -129,7 +129,7 @@ textarea {
     width: 45%;
     margin: 50px auto;
     padding: 40px;
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(168, 168, 168);
 }
 
 .large {
